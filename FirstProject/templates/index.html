@@ -8,9 +8,16 @@
     <title>Rc Mehedi Hasan | Full Stack Developer </title>
     
     <link rel="shortcut icon" href="images/fav.jpg" type="image/jpg">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    {% extends 'contact.html' %}
+
+    {% block content %}
+    
     <h1> Hi I'm {{Name}} </h1>
     <p>I Will Teach You {{Course}} </p>
+
+    {% endblock %}
 </body>
 </html>
